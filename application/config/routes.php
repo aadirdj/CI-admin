@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route = Luthier\Route::getRoutes();
+$route['api/userdata']='api/getuserdata';
+
